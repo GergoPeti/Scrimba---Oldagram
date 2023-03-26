@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000;
+}
+
+.container {
+  background: #f5f5f5;
+  padding-top: 20px;
+}
+
+.content-box {
+  width: 375px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+}
+
+/* ********** HEADER ********** */
+
+header {
+  height: 67px;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 127px;
+  height: 45px;
+}
+
+.avatar-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+/* ********** POST ********** */
+
+.posted-by {
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.post-img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-img {
+  width: 100%;
+}
+
+/* ********** ICONS ********** */
+
+.icons-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 17px;
+  margin: 18px 10px 10px 8px;
+}
+
+.icon {
+  width: 24.3px;
+  height: 26.13px;
+}
+
+.like-number {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 0 12px 13px;
+}
+
+/* ********** COMMENT ********** */
+
+.comment-section {
+  padding: 0 0 16px 13px;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.comment {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/* ********** SEPARATOR ********** */
+
+.separator {
+  background: #f5f5f5;
+  width: 100%;
+  height: 25px;
+}
